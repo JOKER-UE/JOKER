@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>商品列表</title>
+    <title>商品详情</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/list.css">
+    <link rel="stylesheet" href="./css/detail.css">
 </head>
 
 <body>
@@ -103,33 +103,86 @@
         </div>
     </div>
     <div class="container">
-        <div class="searchsort">
-            <ul class="paixu">
-                <li>
-                    <a href="#">销售数量</a><i class="glyphicon glyphicon-arrow-up"></i>
-                </li>
-                <li>
-                    <a href="#">销售数量</a><i class="glyphicon glyphicon-arrow-down"></i>
-                </li>
-                <li>
-                    <a href="#">商品价格</a><i class="glyphicon glyphicon-arrow-up"></i>
-                </li>
-                <li>
-                    <a href="#">商品价格</a><i class="glyphicon glyphicon-arrow-down"></i>
-                </li>
-            </ul>
-            <ul class="changepage">
-            </ul>
+        <div class="detail_con">
+            <div class="detail_left">
+                <div class="bigpic">
+                    <img src="" alt="">
+                    <div class="smallfang"></div>
+                    <div class="bigfang">
+                        <img src="" alt="">
+                    </div>
+                </div>
+
+                <div class="smallpic">
+                    <div class="left">
+                        <i class="glyphicon glyphicon-menu-left"></i>
+                    </div>
+                    <div class="allsmpic">
+                        <ul></ul>
+                    </div>
+                    <div class="right">
+                        <i class="glyphicon glyphicon-menu-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="detail_mid">
+                <h1></h1>
+                <p style="color:red;font-size:12px;margin-left: 30px;">好冰箱，格力造，买电器，就找格力，格力电器，你值得拥有</p>
+                <div class="mid_mid">
+                    <ul>
+                        <li>
+                            <div class="mid_m_left">售价：</div>
+                            <div class="price"></div>
+                        </li>
+                        <li>
+                            <div class="mid_m_left">促销信息：</div>
+                            <div class="mid_m_right" style="color:red">咱格力永不促销！！！！</div>
+                        </li>
+                        <li>
+                            <div class="mid_m_left">商品评分：</div>
+                            <div class="mid_m_right">
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+                                <i class="star"></i>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mid_m_left">好评率：</div>
+                            <div class="mid_m_right">100%</div>
+                        </li>
+                        <li>
+                            <div class="mid_m_left">累计销量：</div>
+                            <div class="buynumber"></div>
+                        </li>
+                        <li>
+                            <div class="mid_m_left">数量：</div>
+                            <div class="numbers">
+                                <a href="javascript:void(0);" class="glyphicon glyphicon-minus"></a>
+                                <input class="numberinput" type="text" value="1">
+                                <a href="javascript:void(0);" class="glyphicon glyphicon-plus"></a>
+                                <p style="color:red;font-weight: bolder;">有货</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mid_m_bottom">
+                    <button>
+                        <span></span>
+                        加入购物车
+                    </button>
+                    <div class="buy"><a href="">立即购买</a> </div>
+                </div>
+            </div>
         </div>
-        <ul class="listall">
-        </ul>
     </div>
 </body>
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
-<script src="./script/jquery.lazyload.js"></script>
-<script src="./script/jquery.pagination.js"></script>
+<script src="./script/detail.js"></script>
+<script src="./script/jscookie.js"></script>
 
-<script src="./script/list.js"></script>
 
 </html>

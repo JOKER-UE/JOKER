@@ -4,7 +4,7 @@
 
 body,
 html {
-    background-color: #f5f5f5;
+    background-color: #fff;
 }
 
 .changtiao {
@@ -145,7 +145,6 @@ header {
     width: 400px;
     margin-left: 22px;
     border: none;
-    background: #f5f5f5;
     color: #747474;
     font-size: 14px;
 }
@@ -203,6 +202,8 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background: white;
+    outline: none;
 }
 
 .logo_right button i {
@@ -257,228 +258,39 @@ header {
     color: #747474;
 }
 
-.banner {
-    display: flex;
-    width: 100%;
-    height: 450px;
-    position: relative;
-}
-
-.banner .banner_left {
+.searchsort {
+    border: 1px solid #E8E8E8;
     width: 1200px;
-    display: flex;
-    position: absolute;
-}
-
-.banner_left ul {
-    width: 174px;
-    height: 450px;
-    overflow: hidden;
-    z-index: 9999;
-}
-
-.banner_left .second {
-    width: 990px;
-    height: 450px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border: 1px solid #d3d3d3;
-    background-color: white;
-    position: absolute;
-    left: 174px;
-    top: 0px;
-    z-index: 999;
-    display: none;
-}
-
-.second_con {
-    width: 672px;
-    min-height: 450px;
-    padding: 28px 80px 28px 100px;
-    box-sizing: border-box;
-}
-
-.second_con a {
-    color: #747474;
-    outline: none;
-    text-decoration: none;
-    line-height: 22px;
-    text-align: right;
-    font-size: 28px;
-}
-
-.banner_left ul li {
-    width: 174px;
-    height: 40px;
+    height: 35px;
+    background-color: #fafafa;
     display: flex;
     justify-content: space-between;
 }
 
-.ban1 {
-    background: black url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/static/img/mall/CategoryIcon-03.png) no-repeat;
-    background-position: 6px center;
-    background-size: 20px;
-    opacity: .7;
-}
-
-.ban2 {
-    background: black url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/static/img/mall/CategoryIcon-04.png) no-repeat;
-    background-position: 6px center;
-    background-size: 20px;
-    opacity: .7;
-}
-
-.ban3 {
-    background: black url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/static/img/mall/CategoryIcon-07.png) no-repeat;
-    background-position: 6px center;
-    background-size: 20px;
-    opacity: .7;
-}
-
-.ban4 {
-    background: black url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/static/img/mall/CategoryIcon-06.png) no-repeat;
-    background-position: 6px center;
-    background-size: 20px;
-    opacity: .7;
-}
-
-.ban5 {
-    background: black url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/static/img/mall/CategoryIcon-05.png) no-repeat;
-    background-position: 6px center;
-    background-size: 20px;
-    opacity: .7;
-}
-
-.ban6 {
-    background: black url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/static/img/mall/CategoryIcon-01.png) no-repeat;
-    background-position: 6px center;
-    background-size: 20px;
-    opacity: .7;
-}
-
-.ban7 {
-    background: black url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/static/img/mall/CategoryIcon-02.png) no-repeat;
-    background-position: 6px center;
-    background-size: 20px;
-    opacity: .7;
-}
-
-.ban8 {
-    background: black url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/static/img/mall/CategoryIcon-08.png) no-repeat;
-    background-position: 6px center;
-    background-size: 20px;
-    opacity: .7;
-}
-
-.ban9 {
-    background: black url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/static/img/mall/CategoryIcon-10.png) no-repeat;
-    background-position: 6px center;
-    background-size: 20px;
-    opacity: .7;
-}
-
-.ban10 {
-    background: black url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/static/img/mall/CategoryIcon-11.png) no-repeat;
-    background-position: 6px center;
-    background-size: 20px;
-    opacity: .7;
-}
-
-.ban11 {
-    background: black url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/static/img/mall/CategoryIcon-12.png) no-repeat;
-    background-position: 6px center;
-    background-size: 20px;
-    opacity: .7;
-}
-
-.ban12 {
-    background: black;
-    opacity: .7;
-}
-
-.banner_left ul li a {
-    display: block;
-    width: 153px;
-    padding-left: 32px;
-    color: #faf8f9;
-    line-height: 40px;
-    font-size: 12px;
-    text-decoration: none;
-}
-
-.banner_left ul li i {
-    right: 10px;
-    line-height: 40px;
-    font-size: 12px;
-    color: white;
-}
-
-.lunbo {
-    width: 1519px;
-    height: 450px;
-    overflow: hidden;
-    position: relative;
-}
-
-.lunbo li {
-    width: 1519px;
-    height: 450px;
-}
-
-.lunbo img {
-    width: 100%;
-    height: 100%;
-}
-
-.lunbo ul {
+.searchsort .paixu {
+    width: 416px;
+    height: 35px;
     display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 0;
-    left: 0;
+    justify-content: space-evenly;
 }
 
-.dots {
-    position: absolute;
-    left: 50%;
-    bottom: 20px;
-    transform: translateX(-50%);
-}
-
-.actives {
-    background: white;
-    opacity: 1;
-}
-
-.dot {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 0 4px;
-    text-indent: -999em;
-    border: 2px solid #fff;
-    border-radius: 6px;
+.searchsort .paixu li {
+    line-height: 35px;
+    text-align: center;
     cursor: pointer;
-    opacity: .4;
-    transition: background .5s, opacity .5s;
+    border-right: 1px solid #e8e8e8;
+    padding: 0 15px 0 15px;
+    font-size: 12px;
 }
 
-.title_left {
-    width: 1200px;
-    display: flex;
+.searchsort .paixu li a {
+    color: #747474;
+    text-decoration: none;
 }
 
-.title_left p {
-    font-size: 18px;
-    margin: 14px 0;
-    color: #757575;
-}
-
-.title_pic {
-    display: flex;
-    justify-content: space-between;
-    width: 1200px;
-    height: 180px;
+.searchsort .paixu li i {
+    font-size: 8px;
+    color: #c8c8c8;
 }
 
 .listall {
@@ -498,6 +310,10 @@ header {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.listbox a {
+    text-decoration: none;
 }
 
 .listbox li {
@@ -543,10 +359,26 @@ header {
     font-weight: bold;
 }
 
-.listbox a {
+.listbox .carts {
     color: #cc0000;
     font-size: 12px;
     font-family: "宋体 Std L";
     float: right;
     cursor: pointer;
+}
+
+.changepage {
+    width: 136px;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.changepage {
+    width: 136px;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 35px;
 }

@@ -56,22 +56,65 @@
         </div>
         <div class="cartlist">
             <ul>
-                <li class="shop_name"><input type="text">全选 商品信息</li>
+                <li class="shop_name"><input type="checkbox" class="allsel">全选 商品信息</li>
                 <li class="shop_pri">单价</li>
                 <li class="shop_num">数量</li>
                 <li class="shop_sum">合计</li>
                 <li class="shop_ope">操作</li>
             </ul>
         </div>
-        <div class="cart_main">
-            <p>亲，购物车内暂时没有商品......</p>
-            <button>去逛逛>></button>
+        <div class="cartlist_mid">
+            <div class="cartlist_con">
+                <div class="clonehidden">
+                    <ul class="listbox clonelist">
+                        <li class="checklist " style="padding-top: 20px;"><input type="checkbox"></li>
+                        <li class="listpic"><img src="" alt=""></li>
+                        <li class="listname"></li>
+                        <li class="listprice"></li>
+                        <li class="listnumber">
+                            <a href="#" class="glyphicon glyphicon-minus"></a>
+                            <input type="text" class="inputnum">
+                            <a href="#" class="glyphicon glyphicon-plus"></a>
+                        </li>
+                        <li class="sumlist"></li>
+                        <li class="dellist">
+                            <a href="">【删除】</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="carst_bottom">
+            <div class="carst_shadow">
+                <div class="bottom_left">
+                    <input class="allsel" type="checkbox">全选
+                    <span><a href="">【批量删除】</a> </span>
+                </div>
+                <div class="bottom_mid">
+                    <p>“去结算”查看满减/折扣优惠</p>
+                </div>
+                <div class="bottom_right">
+                    <div class="zongji">
+                        共选中
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        件商品，总计（不含运费）：¥ <span></span>
+                    </div>
+                    <button>去结算</button>
+                </div>
+            </div>
+
         </div>
     </div>
 
-
+    <!-- <div class=" cart_main ">
+            <p>亲，购物车内暂时没有商品......</p>
+            <button>去逛逛>></button>
+        </div> -->
 </body>
-
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js "></script>
+<script src="./script/jscookie.js "></script>
+<script src="./script/cart.js "></script>
 
 
 </html>
